@@ -1,5 +1,5 @@
 <?php
-    $link = mysql_connect("localhost","root","jorgeles1258mago");
+    $link = mysql_connect("192.168.10.132","root","12345");
     mysql_select_db("CC",$link);
     
     // Con esta sentencia SQL insertaremos los datos en la base de datos

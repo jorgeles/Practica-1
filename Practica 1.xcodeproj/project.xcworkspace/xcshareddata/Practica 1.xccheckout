@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>26FDFA4A-D52F-41BE-B79A-C849B2F2AB95</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Practica 1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>023EC3555C73A14A02E0BF14A9BF060BCF6D7DAB</key>
+		<string>https://github.com/jorgeles/TFM.git</string>
+		<key>B0BE99B5BE2A94DA8A25F00D03B7321CD0B47A58</key>
+		<string>https://github.com/jorgeles/Practica-1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Practica 1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>023EC3555C73A14A02E0BF14A9BF060BCF6D7DAB</key>
+		<string>../../../../../SSBW/Practica%202/mytfm</string>
+		<key>B0BE99B5BE2A94DA8A25F00D03B7321CD0B47A58</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jorgeles/Practica-1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B0BE99B5BE2A94DA8A25F00D03B7321CD0B47A58</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>023EC3555C73A14A02E0BF14A9BF060BCF6D7DAB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mytfm</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B0BE99B5BE2A94DA8A25F00D03B7321CD0B47A58</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Practica%201</string>
+		</dict>
+	</array>
+</dict>
+</plist>
