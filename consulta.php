@@ -1,9 +1,9 @@
 <?php
     
     echo "<p>jsjsjsjsjsj</p>";
-    if (!$link = mysql_connect("192.168.10.132","root","12345");) {
+   /* if (!$link = mysql_connect("192.168.10.132","root","12345");) {
         echo "<p>jajaja</p>";
-    }
+    }*/
     echo "<p>jsjsjsjsjsj</p>";
     /*
     if (!mysql_select_db("CC",$link)) {
