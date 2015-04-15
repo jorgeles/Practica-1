@@ -1,6 +1,13 @@
 <?php
-    $link = mysql_connect("192.168.10.132:3306","root","12345");
-    mysql_select_db("CC",$link);
+    
+    if (!$link = mysql_connect("192.168.10.132","root","12345");) {
+        echo 'No pudo conectarse a mysql';
+        exit;
+    }
+    if (!mysql_select_db("CC",$link)) {
+        echo 'No pudo seleccionar la base de datos';
+        exit;
+    }
     
     // Con esta sentencia SQL insertaremos los datos en la base de datos
     $i=mysql_query("SELECT * from Datos",$link);
