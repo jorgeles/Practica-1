@@ -1,11 +1,9 @@
 <?php
     
-    echo "<p>jsjsjsjsjsj</p>";
-   /* if (!$link = mysql_connect("192.168.10.132","root","12345");) {
-        echo "<p>jajaja</p>";
-    }*/
-    echo "<p>jsjsjsjsjsj</p>";
-    /*
+    if (!$link = mysql_connect("localhost","root","jorgeles1258mago")) {
+        echo 'No se pudo conectar a la base de datos';
+        exit;
+    }
     if (!mysql_select_db("CC",$link)) {
         echo 'No pudo seleccionar la base de datos';
         exit;
@@ -23,5 +21,5 @@
         echo "<td><input type=\"checkbox\" name=\"selectedCheck[]\" value=\"$apellidos\"><br></td>";
         echo "<td><input type=\"hidden\" name=\"selectedId[]\" value=\"$id\"></td>";
         echo '</tr>';
-    }*/
+    }
 ?>
