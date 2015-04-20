@@ -1,6 +1,6 @@
 <?php
     
-    if (!$link = mysql_connect("localhost","root","jorgeles1258mago")) {
+    if (!$link = mysql_connect("192.168.10.132","root","12345")) {
         echo 'No se pudo conectar a la base de datos';
         exit;
     }

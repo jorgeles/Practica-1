@@ -5,7 +5,7 @@
             if(isset($_POST["selectedNA"][$i]) && !empty($_POST["selectedNA"][$i]) &&
                isset($_POST["selectedApe"][$i]) && !empty($_POST["selectedApe"][$i])) {
                 // Si entramos es que todo se ha realizado correctamente
-                $link = mysql_connect("localhost","root","jorgeles1258mago");
+                $link = mysql_connect("192.168.10.132","root","12345");
                 mysql_select_db("CC",$link);
             
                 $result=mysql_query("SELECT ID from Datos where ID= '{$_POST['selectedId'][$i]}'",$link);
@@ -34,7 +34,7 @@
     else{
         for($i = 0; $i <= count($_POST["selectedCheck"]); $i++) {
             if(isset($_POST['selectedCheck'][$i])){
-                $link = mysql_connect("localhost","root","jorgeles1258mago");
+                $link = mysql_connect("192.168.10.132","root","12345");
                 mysql_select_db("CC",$link);
                     
                 $result=mysql_query("DELETE FROM Datos WHERE ID='{$_POST['selectedId'][$i]}'");
@@ -49,6 +49,6 @@
             }
         }
     }
-    include "formulario.php";
+    header("Location: formulario.php");
            
 ?>
