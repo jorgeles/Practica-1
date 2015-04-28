@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		31148C581AD7CACF00BA3D78 /* formulario.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = formulario.php; sourceTree = "<group>"; };
 		31148C591AD7CB9600BA3D78 /* insertar_datos.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = insertar_datos.php; sourceTree = "<group>"; };
+		312DFB051AE8E9E30082D111 /* createdb */ = {isa = PBXFileReference; lastKnownFileType = text; path = createdb; sourceTree = "<group>"; };
 		313C64511AD927C900B9E598 /* consulta.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = consulta.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -16,6 +17,7 @@
 		31148C511AD7CAAB00BA3D78 = {
 			isa = PBXGroup;
 			children = (
+				312DFB051AE8E9E30082D111 /* createdb */,
 				313C64511AD927C900B9E598 /* consulta.php */,
 				31148C591AD7CB9600BA3D78 /* insertar_datos.php */,
 				31148C581AD7CACF00BA3D78 /* formulario.php */,

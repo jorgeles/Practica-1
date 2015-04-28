@@ -1,0 +1,11 @@
+CREATE DATABASE CC
+
+DROP TABLE IF EXISTS Datos;
+
+CREATE TABLE Datos
+(
+ID   int(100)    unsigned not null auto_increment,
+Nombre varchar(200) not null,
+Apellidos varchar(200)not null,
+primary key (id)
+);
